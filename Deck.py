@@ -22,5 +22,5 @@ class Deck:
         return self.cards.pop(0)
 
     def deal(self):
-        retCards = [self.cards.pop(0), self.cards.pop(-1)]
-        return retCards
+        retcards = [self.cards.pop(0), self.cards.pop(-1)]
+        return retcards
